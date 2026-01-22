@@ -6,7 +6,8 @@ import Table from './Component/Table.jsx';
 
 export default function App() {
   return (
-    <>
+    <div>
+      
         <Header />
 
         <Table />
@@ -17,7 +18,7 @@ export default function App() {
 
         <Form />
 
-        </>
+        </div>
       
    
   );
