@@ -691,7 +691,7 @@ export default function Form() {
       <form
         ref={formRef}
         onSubmit={handleSubmit}
-        className="grid grid-cols-1 md:grid-cols-2 gap-6"
+        className="grid grid-cols-1 md:grid-cols-2 gap-6 p-4"
         encType="multipart/form-data"
       >
         {/* Hidden FormSubmit fields */}

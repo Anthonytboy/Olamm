@@ -6,8 +6,7 @@ import Table from './Component/Table.jsx';
 
 export default function App() {
   return (
-    <div className="min-h-screen ">
-      <div className="max-w-6xl w-full mx-auto space-y-10 space-x-5 rounded-2xl shadow-lg p-5 md:p-5">
+    <>
         <Header />
 
         <Table />
@@ -18,8 +17,8 @@ export default function App() {
 
         <Form />
 
-        </div>
+        </>
       
-    </div>
+   
   );
 }
