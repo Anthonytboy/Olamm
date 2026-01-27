@@ -5,7 +5,7 @@ import Image2 from '../assets/Image2.gif'
 const Payment = () => {
   return (
     <>
-      <div className="shadow-md shadow-gray-500 rounded-xl p-4 ">
+      <div className=" hidden shadow-md shadow-gray-500 rounded-xl p-4 ">
         <h1 className="text-xl pb-10 font-bold text-center ">
           ACCOUNT DETAILS FOR PAYMENT BELOW!{' '}
         </h1>
@@ -16,7 +16,7 @@ const Payment = () => {
         />
       </div>
 
-      <div className="text-center shadow-md shadow-gray-500 rounded-xl p-4 bg-lime-900 text-white ">
+      <div className=" hidden text-center shadow-md shadow-gray-500 rounded-xl p-4 bg-lime-900 text-white ">
         <h1 className="text-xl pb-10 font-bold">
           {' '}
           BELOW IS THE AUTHORIZED PAYMENT DETAILS FROM OLAM NIGERIA SALES

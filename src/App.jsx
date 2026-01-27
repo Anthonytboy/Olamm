@@ -17,7 +17,7 @@ export default function App() {
         <Payment />
 
         <Form />
-
+n
         </div>
       
    

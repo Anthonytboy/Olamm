@@ -8,13 +8,15 @@ function Chicken() {
   return (
     <>
       <DeliveryTruck />
-      <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-10 md:gap-20 px-5 md:px-0 max-w-6xl w-full mx-auto my-10 shadow-lg shadow-gray-500 mx-4 ">
+      <div className=" items-center grid sm:grid-cols-2 md:grid-cols-2 gap-10 md:gap-20 px-5 md:px-0 max-w-6xl w-full mx-auto my-10 shadow-lg shadow-gray-500 mx-4 ">
         <div className="rounded-xl p-4 ">
           <img
             src={photo}
             alt=""
             className=" size-100 object-contain mx-auto"
           />
+
+          <h1 className="text-center text-2xl font-medium">Eggs Available at Farm Price</h1>
 
           <ul className="text-black font-medium space-y-5 text-center pt-5">
             <li>
@@ -43,24 +45,24 @@ function Chicken() {
           />
 
           <ul className="text-black font-medium space-y-5 text-center pt-5">
-            <p>
+            <p className="text-2xl font-medium">
               {' '}
-              Eggs available at wholesale/Farm Prices{' '}
-              <span>Noted only bulk orders only</span>
+              Eggs available at wholesale / Farm Prices{' '}
+             Note <span>bulk orders</span>
             </p>
             <li>
-              Jumbo Eggs <span className="text-green-600">₦4,000</span>
+              Jumbo Eggs <span className="text-green-600">Contact For Price</span>
             </li>
             <li>
-              Medium Eggs <span className="text-green-600">₦3,800</span>
+              Medium Eggs <span className="text-green-600">Contact For Price</span>
             </li>
             <li>
-              Small Eggs <span className="text-green-600">₦3,200</span>
+              Small Eggs <span className="text-green-600">Contact For Price</span>
             </li>
           </ul>
         </div>
 
-        <div className="flex sm:flex-col md:flex-row max-w-xl gap-5 shadow-lg py-4 my-10 shadow-gray-500 rounded-xl p-4 text-center mx-auto">
+        <div className="flex flex-col gap-20 justify-center items-center  sm:flex-row max-w-xl shadow-lg py-4 my-10 shadow-gray-500 rounded-xl p-4 text-center mx-auto">
           <div className='space-y-5'>
             <h1 className="text-lg text-green-600 font-bold">
               Kalahari Hybrid Goat

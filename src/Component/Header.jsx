@@ -9,8 +9,8 @@ const Header = () => {
         </div>
 
         <div className=" space-y-10 shadow-md p-5 bg-lime-900 text-white md:p-10 mt-2 rounded-lg">
-          <h1 className="text-3xl md:text-4xl font-bold uppercase text-center">
-            Olam Nigeria Permission Registration
+          <h1 className="text-4xl md:text-4xl font-bold  text-center">
+            Olam Intergated Consultance
           </h1>
           <p className="text-md font-bold">
             (A) Please take note that you need to apply for this before placing
