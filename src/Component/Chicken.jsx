@@ -20,19 +20,19 @@ function Chicken() {
 
           <ul className="text-black font-medium space-y-5 text-center pt-5">
             <li>
-              DOC broilers <span className="text-green-600">₦32,500</span>
+              DOC broilers <span className="text-green-600">Contact For Price</span>
             </li>
             <li>
-              DOC pullets/layers <span className="text-green-600">₦82,500</span>
+              DOC pullets/layers <span className="text-green-600">Contact For </span>
             </li>
             <li>
-              DOC noilers <span className="text-green-600">₦35,000</span>
+              DOC noilers <span className="text-green-600">Contact For </span>
             </li>
             <li>
-              DOC foreign turkey <span className="text-green-600">₦5,250</span>
+              DOC foreign turkey <span className="text-green-600">Contact For </span>
             </li>
             <li>
-              DOC local turkey <span className="text-green-600">₦1,950</span>
+              DOC local turkey <span className="text-green-600">Contact For </span>
             </li>
           </ul>
         </div>
