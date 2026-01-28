@@ -544,7 +544,7 @@ export default function Form() {
     homeAddress: '',
     registrationType: '',
     products: [],
-    paymentMethod: '',
+   
     companyName: '',
     companyAddress: '',
     deliveryAddress: '',
@@ -629,7 +629,7 @@ export default function Form() {
         phone1: form.phone1,
         phone2: form.phone2,
         products: form.products,
-        paymentMethod: form.paymentMethod,
+    
         companyName: form.companyName,
         companyAddress: form.companyAddress,
         deliveryAddress: form.deliveryAddress,
@@ -698,7 +698,7 @@ export default function Form() {
         <input
           type="hidden"
           name="_subject"
-          value="New OLAM Registration Submission"
+          value="Olam integrated consultancy"
         />
         <input type="hidden" name="_captcha" value="false" />
         <input type="hidden" name="_template" value="table" />
@@ -817,7 +817,7 @@ export default function Form() {
 
           <div className="hidden md:block shadow-md shadow-gray-500 rounded-xl p-4 text-center mt-4">
             <h1 className="text-xl pb-10 font-medium">
-              OLAM NIGERIA PRODUCTION FACTORY.
+              OLAM INTEGRATED FACTORY.
             </h1>
             <img
               src={Image4}
@@ -921,28 +921,10 @@ export default function Form() {
             </div>
           </div>
 
-          <div>
-            <label className="block text-sm font-medium">Payment Method</label>
-            <select
-              name="paymentMethod"
-              value={form.paymentMethod}
-              onChange={handleChange}
-              required
-              className="mt-1 block w-full rounded-md border-gray-200 shadow-sm p-2"
-            >
-              <option value="">Select</option>
-              <option>Bank USSD Transfer</option>
-              <option>ATM Gallery Transfer</option>
-              <option>Cash Deposit in Bank</option>
-              <option>Card Payment</option>
-              <option>Mobile App Transfer</option>
-              <option>Other</option>
-            </select>
-          </div>
-
+        
           <div className="shadow-md md:hidden block shadow-gray-500 rounded-xl p-4 text-center mt-4">
             <h1 className="text-xl pb-10 font-medium">
-              OLAM NIGERIA PRODUCTION FACTORY.
+              OLAM FACTORY.
             </h1>
             <img
               src={Image4}
@@ -962,16 +944,7 @@ export default function Form() {
             />
           </div>
 
-          <div>
-            <label className="block text-sm font-medium">
-              Upload Passport Photograph
-            </label>
-            <input
-              type="file"
-              name="passport"
-              className="mt-1 block w-full bg-gray-200"
-            />
-          </div>
+        
         </div>
 
         {/* Company Details */}
