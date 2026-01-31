@@ -16,29 +16,29 @@ function Chicken() {
             className=" size-100 object-contain mx-auto"
           />
 
-          <h1 className="text-center text-2xl font-medium uppercase">
-            (Doc Available){' '}
+          <h1 className="text-center text-2xl font-bold uppercase">
+            (Doc Available:){' '}
           </h1>
 
           <ul className="text-black font-medium space-y-5 text-center pt-5">
             <li>
-              DOC broilers{' '}
+              1: DOC broilers{' '}
               <span className="text-green-600">Contact For Price</span>
             </li>
             <li>
-              DOC pullets/layers{' '}
-              <span className="text-green-600">Contact For </span>
+              2: DOC pullets/layers{' '}
+              <span className="text-green-600">Contact For Price </span>
             </li>
             <li>
-              DOC noilers <span className="text-green-600">Contact For </span>
+              DOC noilers <span className="text-green-600">Contact For Price </span>
             </li>
             <li>
-              DOC foreign turkey{' '}
-              <span className="text-green-600">Contact For </span>
+              4: DOC foreign turkey{' '}
+              <span className="text-green-600">Contact For Price</span>
             </li>
             <li>
-              DOC local turkey{' '}
-              <span className="text-green-600">Contact For </span>
+              5: DOC local turkey{' '}
+              <span className="text-green-600">Contact For Price </span>
             </li>
           </ul>
         </div>
@@ -51,20 +51,19 @@ function Chicken() {
           />
 
           <ul className="text-black font-medium space-y-5 text-center pt-5">
-            <p className="text-2xl font-medium uppercase">
-              {' '}
-              (Eggs available at farm Price)
+            <p className="text-2xl font-bold uppercase">
+              (Eggs available at farm Price:)
             </p>
             <li>
-              Jumbo Eggs{' '}
+             1: Jumbo Eggs{' '}
               <span className="text-green-600">Contact For Price</span>
             </li>
             <li>
-              Medium Eggs{' '}
+            2: Medium Eggs{' '}
               <span className="text-green-600">Contact For Price</span>
             </li>
             <li>
-              Small Eggs{' '}
+              3: Small Eggs{' '}
               <span className="text-green-600">Contact For Price</span>
             </li>
           </ul>
