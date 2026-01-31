@@ -17,7 +17,7 @@ function Chicken() {
           />
 
           <h1 className="text-center text-2xl font-bold uppercase">
-            (Doc Available:){' '}
+            (Doc Available){' '}
           </h1>
 
           <ul className="text-black font-medium space-y-5 text-center pt-5">
@@ -30,7 +30,7 @@ function Chicken() {
               <span className="text-green-600">Contact For Price </span>
             </li>
             <li>
-              DOC noilers <span className="text-green-600">Contact For Price </span>
+              3: DOC noilers <span className="text-green-600">Contact For Price </span>
             </li>
             <li>
               4: DOC foreign turkey{' '}
@@ -52,14 +52,14 @@ function Chicken() {
 
           <ul className="text-black font-medium space-y-5 text-center pt-5">
             <p className="text-2xl font-bold uppercase">
-              (Eggs available at farm Price:)
+              (Eggs available at farm Price)
             </p>
             <li>
              1: Jumbo Eggs{' '}
               <span className="text-green-600">Contact For Price</span>
             </li>
             <li>
-            2: Medium Eggs{' '}
+             2: Medium Eggs{' '}
               <span className="text-green-600">Contact For Price</span>
             </li>
             <li>
