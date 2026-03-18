@@ -1,13 +1,13 @@
 import React from 'react';
 import Image from '../assets/Image.png';
-import Image2 from '../assets/Image2.gif'
+import Image2 from '../assets/Image2.gif';
 
 const Payment = () => {
   return (
     <>
       <div className=" hidden shadow-md shadow-gray-500 rounded-xl p-4 ">
         <h1 className="text-xl pb-10 font-bold text-center ">
-          ACCOUNT DETAILS FOR PAYMENT BELOW!{' '}
+          PAYMENT ACCOUNT INFORMATION PROVIDED BELOW{' '}
         </h1>
         <img
           src={Image}
@@ -16,15 +16,13 @@ const Payment = () => {
         />
       </div>
 
-      <div className=" hidden text-center shadow-md shadow-gray-500 rounded-xl p-4 bg-lime-900 text-white ">
+      <div className=" text-center shadow-md shadow-gray-500 rounded-xl p-4 bg-lime-900 text-white ">
         <h1 className="text-xl pb-10 font-bold">
           {' '}
-          BELOW IS THE AUTHORIZED PAYMENT DETAILS FROM OLAM NIGERIA SALES
-          DEPARTMENT
+          VERIFIED PAYMENT DETAILS FROM OLAMPLUS NIGERIA BUSINESS UNIT
         </h1>
         <h2 className="text-lg pb-4 font-semibold">
-          MAKE PAYMENT FOR YOUR PERMIT REGISTRATION TO THE AUTHORIZED PAYMENT
-          DETAILS PROVIDED BELOW
+          REMIT REGISTRATION FEES TO THE AUTHORIZED ACCOUNTS LISTED BELOW
         </h2>
 
         <div className="text-lg pb-2 font-semibold text-center space-y-5 py-5 my-10 shadow-lg shadow-gray-800 rounded-lg">
@@ -35,22 +33,22 @@ const Payment = () => {
             Account Name:{' '}
             <span className="font-bold uppercase">
               {' '}
-              OLAM FARMS INTEGRATED SERVICES
+              OLAm FEED MILL AND HATCHERY
             </span>
           </p>
           <p className="text-lg pb-2 font-semibold">
             Account Number:{' '}
-            <span className="font-bold uppercase">5014253477</span>
+            <span className="font-bold uppercase">5510029577</span>
           </p>
           <p className="text-lg pb-2 font-semibold">
             Bank Name:{' '}
-            <span className="font-bold uppercase">SAFE HEAVEN BANK</span>
+            <span className="font-bold uppercase">KOLOMONIE MFB BANK</span>
           </p>
         </div>
 
-        <div className="text-lg pb-2 font-semibold text-center space-y-5 mx-auto shadow-lg shadow-gray-800 rounded-lg py-5 my-10">
+        <div className="hidden text-lg pb-2 font-semibold text-center space-y-5 mx-auto shadow-lg shadow-gray-800 rounded-lg py-5 my-10">
           <h1 className="text-3xl font-bold py-4 text-black">
-            Olams Signatory Account Details For Bookings
+            Olamplus Signatory Account Details For Bookings
           </h1>
           <p>
             Bank Name:{' '}
@@ -67,11 +65,11 @@ const Payment = () => {
         </div>
 
         <p className="text-lg pb-2 font-semibold">
-          Once payment is made, kindly fill in the forms correctly with the
-          required information and also upload the vital files where necessary
-          before submission. Our team will surely reach out to you for
-          confirmation and approval of your proposal within 24 hours so as to
-          proceed with the next line of action.
+          Following payment, please complete all registration form fields
+          accurately and attach all required supporting documentation before
+          finalizing submission. Our support team will contact you within 24
+          hours to validate your application and guide you through the
+          subsequent steps.
         </p>
       </div>
 

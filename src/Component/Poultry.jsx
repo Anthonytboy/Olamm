@@ -13,8 +13,8 @@ function Poultry() {
         'Chikun Layer -1 Mash',
         'Chikun Layer -2 Mash',
       ],
-      increase: [150, 150, 150, 150, 150, 150],
-      prices: [14700, 14660, 14650, 14630, 14600, 14580],
+       bagsize: [25, 25, 25, 25, 25, 25],
+      prices: [12300, 12300, 12300, 12300, 12300, 12300],
     },
 
     // Broiler Feeds
@@ -26,13 +26,12 @@ function Poultry() {
         'Chikun Stater Mash',
         'Chikun Stater Pellet',
         'Chikun Finisher Mash',
-        'Chikun Super Starter Pellet',
         'Ultima Super Starter Pellet',
         'Ultima Stater Pellet',
         'Ultima Finisher Pellet',
       ],
-      increase: [200, 300, 200, 300, 200, 300, 350, 350, 350],
-      prices: [15150, 15130, 15120, 15115, 15135, 15150, 21200, 21170, 21200],
+      bagsize: [25, 25, 25, 25, 25, 25, 25, 25, 25],
+      prices: [12680, 12650, 12600, 12600, 12650, 16785, 16700, 16785],
     },
 
     // Super Premium Broiler Feeds
@@ -43,8 +42,8 @@ function Poultry() {
         'Ultima Plus Starter',
         'Ultima Plus Finisher',
       ],
-      increase: [400, 400, 400],
-      prices: [21400, 21400, 21400],
+      bagsize: [25, 25, 25],
+      prices: [16900, 16900, 16900],
     },
   ];
 
@@ -56,7 +55,7 @@ function Poultry() {
           <tr className="bg-lime-900 text-white font-bold border-b rounded-lg">
             <th className="px-4 py-3">FEED TYPE</th>
             <th className="px-4 py-3">DESCRIPTION</th>
-            <th className="px-4 py-3">INCREASE</th>
+            <th className="px-4 py-3">BAG SIZE</th>
             <th className="px-4 py-3"> NEW PRICE (₦)</th>
           </tr>
         </thead>
@@ -80,7 +79,7 @@ function Poultry() {
 
                   <td className="px-4 py-3">{size}</td>
 
-                  <td className="px-4 py-3 text-white">{product.increase[idx]}</td>
+                  <td className="px-4 py-3 text-white">{product.bagsize[idx]}kg</td>
 
                   <td className="px-4 py-3 text-white">
                     ₦{product.prices[idx].toLocaleString()}

@@ -698,7 +698,7 @@ export default function Form() {
         <input
           type="hidden"
           name="_subject"
-          value="Olam integrated consultancy"
+          value="Olamplus integrated services"
         />
         <input type="hidden" name="_captcha" value="false" />
         <input type="hidden" name="_template" value="table" />
@@ -817,7 +817,7 @@ export default function Form() {
 
           <div className="hidden md:block shadow-md shadow-gray-500 rounded-xl p-4 text-center mt-4">
             <h1 className="text-xl pb-10 font-medium">
-              OLAM INTEGRATED FACTORY.
+              OLAMPLUS INTEGRATED SERVICES.
             </h1>
             <img
               src={Image4}
@@ -924,7 +924,7 @@ export default function Form() {
         
           <div className="shadow-md md:hidden block shadow-gray-500 rounded-xl p-4 text-center mt-4">
             <h1 className="text-xl pb-10 font-medium">
-              OLAM FACTORY.
+              OLAMPLUS FACTORY.
             </h1>
             <img
               src={Image4}
@@ -978,7 +978,7 @@ export default function Form() {
 
           <div className="shadow-md shadow-gray-500 rounded-xl p-4 text-center mt-4">
             <h1 className="text-xl pb-10 font-medium">
-              OLAM NIGERIA PRODUCTION FACTORY.
+              OLAMPLUS INTEGRATED SERVICES
             </h1>
             <img
               src={Image5}

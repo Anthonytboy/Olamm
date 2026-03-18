@@ -4,19 +4,21 @@ const Introduction = () => {
   return (
     <div className=" space-y-10 shadow-lg p-5 my-3 rounded-xl bg-lime-900 text-white shadow-gray-400">
       <p className="font-medium">
-        <span className="font-bold text-xl">Olam Intergrated Consultancy </span>
-       We manufacture and distribute packaged food products to African markets,
-        addressing localised nutrition needs by offering affordable and
-        fortified products. We offer good quality, inexpensive feed, and
-        day-old-chicks to farmers, which also contributes to foods security.
+        <span className="font-bold text-xl">Olamplus Intergrated services </span>
+        Our organization produces and supplies packaged food items throughout
+        Africa, meeting regional dietary requirements with budget-friendly and
+        nutrient-enhanced solutions. We provide superior-grade, cost-effective
+        animal feed and newly-hatched poultry to agricultural producers, thereby
+        advancing global food security.
       </p>
       <p className="font-medium">
-        Our mill farm produces 36,000 metric tonnes of rice for local markets
-        under brands such as Mama’s Pride and Mama’s Choice.
-      </p>
-      <p className="font-medium text-xl">DELIVERY POSSIBILITY!!!</p>
-      <p className="font-bold text-xl">
-        Purchase Permit Order (P.P.O) from Olam Nigeria Limited & Local
+        Our milling facilities generate 36,000 metric tonnes of rice annually
+        for regional distribution, marketed under the names Mama's Pride and
+        Mama's Choice.
+        </p>
+        <p className="font-medium text-xl">DELIVERY POSSIBILITY!!!</p>
+        <p className="font-bold text-xl">
+          Purchase Permit Order (P.P.O) from Olamplus integrated Services & Local
         Government Approval.
       </p>
 
@@ -26,17 +28,17 @@ const Introduction = () => {
         </p>
 
         <p className="font-medium text-md">
-          Please take note, <br /> The required fee for this operation, is
-          ₦780,780 for Major distributorship Registration
+          Important: <br /> Registration costs are ₦780,780 for Major
+          Distributor Status
         </p>
         <p className="font-medium text-md">
           {' '}
-          ₦75,780 for Retailers / Farmers Registration
+          ₦75,780 for Retailer / Farming Operations
         </p>
 
         <p className="font-medium text-md">
           {' '}
-          ₦35,780 for End users or consumers Registration.{' '}
+          ₦35,780 for Individual Customer Enrollment.{' '}
         </p>
       </div>
 
@@ -51,8 +53,8 @@ const Introduction = () => {
         </p>
 
         <p className="font-medium text-md">
-          NOTE: Registration fee must be remitted before proceeding with the
-          enrollment and filling of this form below!
+          REMINDER: Payment of enrollment charges is mandatory prior to
+          initiating form submission and account creation.
         </p>
       </div>
     </div>
