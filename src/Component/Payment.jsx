@@ -21,28 +21,28 @@ const Payment = () => {
           {' '}
           Verified Payment Details From OLAMPLUS NIGERIA BUSINESS UNIT
         </h1>
-        <h2 className="text-lg pb-4 font-semibold">
+        <h2 className="text-lg pb-4 font-medium">
           Remit Registration Fees To The Authorized Account Listed Below
         </h2>
 
-        <div className="text-lg pb-2 font-semibold text-center space-y-5 py-5 my-10 shadow-lg shadow-gray-800 rounded-lg">
+        <div className="text-lg pb-2 text-center space-y-5 py-5 my-10 rounded-lg">
           <h1 className="text-3xl font-bold py-4 text-black">
             Company's Account Details For Bookings and Registration
           </h1>
-          <p className="text-lg pb-2 font-semibold">
+          <p className="text-lg pb-2 font-medium text-left">
             Account Name:{' '}
-            <span className="font-bold uppercase">
+            <span className="font-bold text-black uppercase">
               {' '}
               OLAM FEED MILL AND HATCHERY
             </span>
           </p>
-          <p className="text-lg pb-2 font-semibold">
+          <p className="text-lg pb-2 font-bold">
             Account Number:{' '}
-            <span className="font-bold uppercase">5065451286</span>
+            <span className="text-black uppercase">5065451286</span>
           </p>
-          <p className="text-lg pb-2 font-semibold">
+          <p className="text-lg pb-2 font-bold">
             Bank Name:{' '}
-            <span className="font-bold uppercase">SOURCE MFB BANK</span>
+            <span className="text-black uppercase">SOURCE MFB BANK</span>
           </p>
         </div>
 

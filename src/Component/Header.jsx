@@ -4,16 +4,16 @@ const Header = () => {
   return (
     <>
       <header className="mb-10 ">
-        <div className="pt-5 bg-lime-900 p-4 pb-10">
+        <div className="pt-5 bg-lime-900 p-2 pb-10">
           <img src={Logo} alt="" className="mx-auto" />
         </div>
 
         <div className=" space-y-10 shadow-md p-5 bg-lime-900 text-white md:p-10 mt-2 rounded-lg">
-          <h1 className="text-4xl md:text-4xl font-bold  text-center">
+          <h1 className="text-4xl font-bold  text-center">
             Olamplus Intergated Services
           </h1>
           <p className="text-md font-bold">
-            (A) Kindly remember that a purchase permit application is required
+            Kindly remember that a purchase permit application is required
             prior to making any purchases. To proceed, you must submit a
             purchase permit request which will authorize your purchasing
             privileges and evaluation. 
@@ -21,7 +21,7 @@ const Header = () => {
 
           <div className="text-white mx-auto space-y-10 ">
             <h2 className="font-bold text-md ">
-              (B) WE OFFER FIVE DISTINCT REGISTRATION CATEGORIES:
+              WE OFFER FIVE DISTINCT REGISTRATION CATEGORIES:
             </h2>
             <p className="grid w-mx space-y-5 text-sm font-bold ">
               <span className="">
@@ -41,14 +41,14 @@ const Header = () => {
               <span>5. Services Registration, ₦225,000</span>
             </p>
             <p className="text-md font-bold text-white">
-              (C) After submitting your purchase permit application, approval
+              After submitting your purchase permit application, approval
               requires 24 hours before access is granted. Upon completion, you
               will receive a payment receipt along with your approved purchase
               permit documentation from our office.
             </p>
 
             <p className="text-md font-bold text-white ">
-              (D) Goods will be shipped within 3 days following confirmation of
+              Goods will be shipped within 3 days following confirmation of
               your deposit payment, which will be itemized in your pro-forma
               invoice. Should any product concerns arise, you may request a
               refund, substitute delivery, or product swap up to 9 days from the

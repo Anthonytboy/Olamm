@@ -7,7 +7,7 @@ import DeliveryTruck from './DeliveryTruck';
 function Chicken() {
   return (
     <>
-      <DeliveryTruck />
+     
       <div className=" items-center grid sm:grid-cols-2 md:grid-cols-2 gap-10 md:gap-20 px-5 md:px-0 max-w-6xl w-full mx-auto my-10 shadow-lg shadow-gray-500 mx-4 ">
         <div className="rounded-xl p-4 ">
           <img
@@ -20,7 +20,7 @@ function Chicken() {
             (Doc Available){' '}
           </h1>
 
-          <ul className="text-black font-medium space-y-5 text-center pt-5">
+          <ul className="text-black font-medium space-y-5 text-left items-center mx-auto pt-5">
             <li>
               1: DOC broilers{' '}
               <span className="text-green-600">Contact For Price</span>
@@ -69,21 +69,24 @@ function Chicken() {
           </ul>
         </div>
 
-        <div className="flex flex-col gap-20 justify-center items-center  sm:flex-row max-w-xl shadow-lg py-4 my-10 shadow-gray-500 rounded-xl p-4 text-center mx-auto">
-          <div className="space-y-5">
-            <h1 className="text-lg text-green-600 font-bold">
+        <div className="flex flex-row gap-20 justify-center md:flex-col shadow-lg py-4 my-10 shadow-gray-500 rounded-xl p-4 text-center mx-auto">
+          <div className="space-y-5 mx-auto">
+            <h1 className="text-lg text-black font-bold">
               Kalahari Hybrid Goat
             </h1>
 
-            <img src={goats} alt="goat" className=" object-contain mx-auto " />
+            <img src={goats} alt="goat" className="object-contain mx-auto" size={70} />
           </div>
 
-          <div className="space-y-5">
-            <h1 className="text-lg text-green-600 font-bold ">Boar Goat</h1>
+          <div className="space-y-5 mx-auto">
+            <h1 className="text-lg text-black font-bold ">Boar Goat</h1>
 
-            <img src={white} alt="goat" className=" object-contain mx-auto" />
+            <img src={white} alt="goat" className=" object-contain mx-auto" size={70} />
           </div>
+
+          
         </div>
+         <DeliveryTruck />
       </div>
     </>
   );
