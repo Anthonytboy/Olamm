@@ -20,7 +20,7 @@ const Header = () => {
           </p>
 
           <div className="text-white mx-auto space-y-10 ">
-            <h2 className="font-bold text-md ">
+            <h2 className="font-bold text-lg ">
               WE OFFER FIVE DISTINCT REGISTRATION CATEGORIES:
             </h2>
             <p className="grid w-mx space-y-5 text-sm font-bold ">
