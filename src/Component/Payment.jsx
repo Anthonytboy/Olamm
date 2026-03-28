@@ -25,24 +25,24 @@ const Payment = () => {
           Remit Registration Fees To The Authorized Account Listed Below
         </h2>
 
-        <div className="text-lg pb-2 text-center space-y-5 py-5 my-10 rounded-lg">
-          <h1 className="text-3xl font-bold py-4 text-black">
+        <div className="text-lg pb-2 text-center space-y-5 py-5 my-10 rounded-lg mx-auto">
+          <h1 className="text-3xl font-bold py-4">
             Company's Account Details For Bookings and Registration
           </h1>
-          <p className="text-lg pb-2 font-medium text-left">
+          <p className="text-lg pb-2 font-medium">
             Account Name:{' '}
-            <span className="font-bold text-black uppercase">
+            <span className="font-bold  uppercase">
               {' '}
               OLAM FEED MILL AND HATCHERY
             </span>
           </p>
           <p className="text-lg pb-2 font-bold">
             Account Number:{' '}
-            <span className="text-black uppercase">5065451286</span>
+            <span className=" uppercase">5065451286</span>
           </p>
           <p className="text-lg pb-2 font-bold">
             Bank Name:{' '}
-            <span className="text-black uppercase">SOURCE MFB BANK</span>
+            <span className=" uppercase">SOURCE MFB BANK</span>
           </p>
         </div>
 
