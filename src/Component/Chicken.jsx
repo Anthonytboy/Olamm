@@ -8,7 +8,7 @@ function Chicken() {
   return (
     <>
      
-      <div className=" items-center grid sm:grid-cols-2 md:grid-cols-2 gap-10 md:gap-20 px-5 md:px-0 max-w-6xl w-full mx-auto my-10 shadow-lg shadow-gray-500 mx-4 pb-5">
+      <div className=" items-center grid sm:grid-cols-4 md:grid-cols-4 gap-10 md:gap-20 px-5 md:px-0 max-w-6xl w-full mx-auto my-10 shadow-lg shadow-gray-500 mx-4 pb-5">
         <div className="rounded-xl p-4 ">
           <img
             src={photo}
@@ -69,24 +69,24 @@ function Chicken() {
           </ul>
         </div>
 
-        <div className="flex flex-col gap-20 justify-center md:flex-row shadow-lg py-4 my-10 shadow-gray-500 rounded-xl p-4 text-center mx-auto">
-          <div className="space-y-5 mx-auto">
-            <h1 className="text-lg text-black font-bold">
+        <div className="rounded-xl p-4 ">
+            <img src={goats} alt="goat" className="object-contain mx-auto" size={70} />
+             <h1 className="text-lg text-black font-bold">
               Kalahari Hybrid Goat
             </h1>
-
-            <img src={goats} alt="goat" className="object-contain mx-auto" size={70} />
           </div>
 
-          <div className="space-y-5 mx-auto">
+        
+          
+      
+       
+        </div>
+
+          <div className="rounded-xl p-4">
             <h1 className="text-lg text-black font-bold ">Boar Goat</h1>
 
             <img src={white} alt="goat" className=" object-contain mx-auto" size={70} />
           </div>
-
-          
-        </div>
-       
       </div>
 
         <DeliveryTruck />
