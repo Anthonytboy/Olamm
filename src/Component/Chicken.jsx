@@ -7,7 +7,6 @@ import DeliveryTruck from './DeliveryTruck';
 function Chicken() {
   return (
     <>
-     
       <div className=" items-center grid sm:grid-cols-4 md:grid-cols-4 gap-10 md:gap-20 px-5 md:px-0 max-w-6xl w-full mx-auto my-10 shadow-lg shadow-gray-500 mx-4 pb-5">
         <div className="rounded-xl p-4 ">
           <img
@@ -30,7 +29,8 @@ function Chicken() {
               <span className="text-green-600">Contact For Price </span>
             </li>
             <li>
-              3: DOC noilers <span className="text-green-600">Contact For Price </span>
+              3: DOC noilers{' '}
+              <span className="text-green-600">Contact For Price </span>
             </li>
             <li>
               4: DOC foreign turkey{' '}
@@ -55,11 +55,11 @@ function Chicken() {
               (Eggs available at farm Price)
             </p>
             <li>
-             1: Jumbo Eggs{' '}
+              1: Jumbo Eggs{' '}
               <span className="text-green-600">Contact For Price</span>
             </li>
             <li>
-             2: Medium Eggs{' '}
+              2: Medium Eggs{' '}
               <span className="text-green-600">Contact For Price</span>
             </li>
             <li>
@@ -70,26 +70,17 @@ function Chicken() {
         </div>
 
         <div className="rounded-xl p-4 ">
-            <img src={goats} alt="goat" className="object-contain mx-auto" size={70} />
-             <h1 className="text-lg text-black font-bold">
-              Kalahari Hybrid Goat
-            </h1>
-          </div>
-
-        
-          
-      
-       
+          <img src={goats} alt="goat" className="object-contain mx-auto" />
+          <h1 className="text-lg text-black font-bold">Kalahari Hybrid Goat</h1>
         </div>
 
-          <div className="rounded-xl p-4">
-            <h1 className="text-lg text-black font-bold ">Boar Goat</h1>
-
-            <img src={white} alt="goat" className=" object-contain mx-auto" size={70} />
-          </div>
+        <div className="rounded-xl p-4">
+          <h1 className="text-lg text-black font-bold ">Boar Goat</h1>
+          <img src={white} alt="goat" className="object-contain mx-auto" />
+        </div>
       </div>
 
-        <DeliveryTruck />
+      <DeliveryTruck />
     </>
   );
 }
