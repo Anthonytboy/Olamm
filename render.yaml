@@ -1,0 +1,19 @@
+services:
+  - type: static
+    name: olam-plus
+    buildCommand: npm run build
+    staticPublishPath: dist
+    envVars:
+      - key: NODE_VERSION
+        value: 18
+      - key: VITE_BASE_URL
+        value: /
+    headers:
+      - path: /*
+        headers:
+          - key: Cache-Control
+            value: public, max-age=3600
+      - path: /index.html
+        headers:
+          - key: Cache-Control
+            value: no-cache, no-store, must-revalidate
