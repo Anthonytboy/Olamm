@@ -10,7 +10,7 @@ const Header = () => {
 
         <div className=" space-y-10 shadow-md p-5 bg-lime-900 text-white md:p-10 mt-2 rounded-lg">
           <h1 className="text-4xl font-bold  text-center">
-            Olamplus Intergated Services
+            Olams Group Services
           </h1>
           <p className="text-md font-bold">
             Kindly remember that a purchase permit application is required
