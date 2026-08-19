@@ -4,7 +4,7 @@ const Introduction = () => {
   return (
     <div className=" space-y-10 shadow-lg p-5 my-3 rounded-xl bg-lime-900 text-white shadow-gray-400">
       <p className="font-medium">
-        <span className="font-bold text-xl">Olamplus Intergrated services </span>
+        <span className="font-bold text-xl">Olams Group services </span>
         Our organization produces and supplies packaged food items throughout
         Africa, meeting regional dietary requirements with budget-friendly and
         nutrient-enhanced solutions. We provide superior-grade, cost-effective
