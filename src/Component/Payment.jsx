@@ -26,29 +26,31 @@ const Payment = () => {
         </h2>
 
         <div className="text-lg pb-2 text-center space-y-5 py-5 my-10 rounded-lg mx-auto">
-          <h1 className="text-3xl font-bold py-4 uppercase">
-            Official Financial secretary's account details
+          <h1 className="text-3xl font-bold py-4">
+            OFFICIAL FINANCIAL SECRETARY'S ACCOUNT DETAILS
           </h1>
           <p className="text-lg pb-2 font-medium">
             Account Name:{' '}
-            <span className="font-bold  uppercase"> Sarah Itohan</span>
+            <span className="font-bold  uppercase">
+              {' '}
+              SARAH ITOHAN
+            </span>
           </p>
           <p className="text-lg pb-2 font-bold">
-            Account Number: <span className=" uppercase">0012003571</span>
+            Account Number:{' '}
+            <span className=" uppercase">0012003571</span>
           </p>
           <p className="text-lg pb-2 font-bold">
             Bank Name:{' '}
-            <span className=" uppercase">Bank Of Agriculture PLC </span>
-            <h1 className="text-3xl font-bold py-4 text-black">
-              Olamgroups authorized account details for registration
-            </h1>
+            <span className=" uppercase">BANK OF  AGRICULTURE PLC </span>
+  <h1 className="text-3xl font-bold py-4 text-black">
+            OLAM AUTHORIZED ACCOUNT DETAILS FOR REGISTRATION
+          </h1>
           </p>
         </div>
 
         <div className="hidden text-lg pb-2 font-semibold text-center space-y-5 mx-auto shadow-lg shadow-gray-800 rounded-lg py-5 my-10">
-          <h1 className="text-3xl font-bold py-4 text-black">
-            Olamgroups authorized account details for registration
-          </h1>
+        
           <p>
             Bank Name:{' '}
             <span className="font-bold uppercase "> First Bank </span>
