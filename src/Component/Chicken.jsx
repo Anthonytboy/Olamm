@@ -8,7 +8,7 @@ function Chicken() {
   return (
     <>
       <div className="items-center grid  shadow-lg shadow-gray-500">
-        <div className="py-4 flex flex-row mx-auto space-x-14 items-center ">
+        <div className="py-4 mx-auto items-center ">
           <img src={photo} alt="" className=" size-50 object-fill " />
 
           <ul className="text-black font-medium space-y-5">
@@ -38,7 +38,7 @@ function Chicken() {
           </ul>
         </div>
 
-        <div className="py-4 flex flex-row mx-auto space-x-4 item-center">
+        <div className="py-4 flex flex mx-auto item-center">
           <ul className="text-black font-medium space-y-5">
             <p className="text-2xl font-bold uppercase">
               (Eggs available at farm Price)
