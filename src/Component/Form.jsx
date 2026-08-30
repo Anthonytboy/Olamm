@@ -924,7 +924,7 @@ export default function Form() {
         
           <div className="shadow-md md:hidden block shadow-gray-500 rounded-xl p-4 text-center mt-4">
             <h1 className="text-xl pb-10 font-medium">
-              OLAMPLUS FACTORY.
+              SERVICE FACTORY
             </h1>
             <img
               src={Image4}
@@ -978,7 +978,7 @@ export default function Form() {
 
           <div className="shadow-md shadow-gray-500 rounded-xl p-4 text-center mt-4">
             <h1 className="text-xl pb-10 font-medium">
-              OLAMPLUS INTEGRATED SERVICES
+              OLAMS GROUP SERVICES 
             </h1>
             <img
               src={Image5}

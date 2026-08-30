@@ -14,7 +14,7 @@ function Poultry() {
         'Chikun Layer -2 Mash',
       ],
        bagsize: [25, 25, 25, 25, 25, 25],
-      prices: [12300, 12300, 12300, 12300, 12300, 12300],
+      prices: [13480, 13890, 13200, 13000, 13500, 13400],
     },
 
     // Broiler Feeds
@@ -31,7 +31,7 @@ function Poultry() {
         'Ultima Finisher Pellet',
       ],
       bagsize: [25, 25, 25, 25, 25, 25, 25, 25, 25],
-      prices: [12680, 12650, 12600, 12600, 12650, 16785, 16700, 16785],
+      prices: [14200, 14490, 14150, 14200, 14090, 14190, 15700, 15610, 15900],
     },
 
     // Super Premium Broiler Feeds
@@ -43,7 +43,7 @@ function Poultry() {
         'Ultima Plus Finisher',
       ],
       bagsize: [25, 25, 25],
-      prices: [16900, 16900, 16900],
+      prices: [16680, 16430, 16150],
     },
   ];
 

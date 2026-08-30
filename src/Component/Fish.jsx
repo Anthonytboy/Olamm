@@ -6,28 +6,28 @@ function Fish() {
   {
     name: 'Blue Crown Feed',
     sizes: ['42 - 2mm', '42 - 3mm', '42 - 4mm', '40 - 6mm', '38 - 9mm'],
-    prices: [21100, 21050, 21500, 21750, 21900],
+    prices: [12950, 11800, 11450, 10900, 10400],
   },
 
   // Ex Aqualis Feed
   {
     name: 'Ex Aqualis Feed',
     sizes: ['45 - 2mm', '45 - 3mm', '45 - 4mm', '42 - 6mm', '42 - 9mm'],
-    prices: [32100, 32050, 32500, 33800, 34000],
+    prices: [15800, 15100, 14950, 14250, 14150],
   },
 
   // Alpha Feed
   {
     name: 'Alpha Feed',
     sizes: ['4mm', '6mm', '8mm'],
-    prices: [24500, 24800, 24900],
+    prices: [12650, 11950, 11450],
   },
 
   // Eco Float Feed
   {
     name: 'Eco Float Feed',
     sizes: ['3mm', '4mm', '6mm', '9mm'],
-    prices: [19900, 19950, 19950, 19960],
+    prices: [9450, 9150, 8625, 8375],
   },
 ];
 

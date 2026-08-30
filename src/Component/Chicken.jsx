@@ -7,19 +7,14 @@ import DeliveryTruck from './DeliveryTruck';
 function Chicken() {
   return (
     <>
-      <div className=" items-center grid sm:grid-cols-4 md:grid-cols-4 gap-10 md:gap-20 px-5 md:px-0 max-w-6xl w-full mx-auto my-10 shadow-lg shadow-gray-500 mx-4 pb-5">
-        <div className="rounded-xl p-4 ">
-          <img
-            src={photo}
-            alt=""
-            className=" size-100 object-contain mx-auto"
-          />
+      <div className="items-center grid  shadow-lg shadow-gray-500">
+        <div className="py-4 flex flex-row mx-auto space-x-14 items-center ">
+          <img src={photo} alt="" className=" size-50 object-fill " />
 
-          <h1 className="text-center text-2xl font-bold uppercase">
-            (Doc Available){' '}
-          </h1>
-
-          <ul className="text-black font-medium space-y-5 text-left items-center mx-auto pt-5">
+          <ul className="text-black font-medium space-y-5">
+            <h1 className="text-center text-2xl font-bold uppercase">
+              (Doc Available){' '}
+            </h1>
             <li>
               1: DOC broilers{' '}
               <span className="text-green-600">Contact For Price</span>
@@ -43,14 +38,8 @@ function Chicken() {
           </ul>
         </div>
 
-        <div className="rounded-xl p-4 ">
-          <img
-            src={Photo}
-            alt=""
-            className=" size-100 object-contain mx-auto"
-          />
-
-          <ul className="text-black font-medium space-y-5 text-left items-center mx-auto pt-5">
+        <div className="py-4 flex flex-row mx-auto space-x-4 item-center">
+          <ul className="text-black font-medium space-y-5">
             <p className="text-2xl font-bold uppercase">
               (Eggs available at farm Price)
             </p>
@@ -67,16 +56,27 @@ function Chicken() {
               <span className="text-green-600">Contact For Price</span>
             </li>
           </ul>
+          <img src={Photo} alt="" className=" size-50 object-fill " />
         </div>
-
-        <div className="rounded-xl p-4 ">
-          <img src={goats} alt="goat" className="object-contain mx-auto" />
-          <h1 className="text-lg text-black font-bold">Kalahari Hybrid Goat</h1>
-        </div>
-
-        <div className="rounded-xl p-4">
-          <h1 className="text-lg text-black font-bold ">Boar Goat</h1>
-          <img src={white} alt="goat" className="object-contain mx-auto" />
+        <div className="py-4 flex items-center mx-auto gap-5">
+          <div>
+            <h1 className="text-lg text-black font-bold">
+              Kalahari Hybrid Goat
+            </h1>
+            <img
+              src={goats}
+              alt="goat"
+              className="object-fill mx-auto size-74"
+            />
+          </div>
+          <div>
+            <h1 className="text-lg text-black font-bold ">Boar Goat</h1>
+            <img
+              src={white}
+              alt="goat"
+              className="object-fill mx-auto size-74"
+            />
+          </div>
         </div>
       </div>
 

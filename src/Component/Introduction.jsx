@@ -18,7 +18,7 @@ const Introduction = () => {
         </p>
         <p className="font-medium text-xl">DELIVERY POSSIBILITY!!!</p>
         <p className="font-bold text-xl">
-          Purchase Permit Order (P.P.O) from Olamplus integrated Services & Local
+          Purchase Permit Order (P.P.O) from Olams Services & Local
         Government Approval.
       </p>
 
